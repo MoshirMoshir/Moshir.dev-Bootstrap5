@@ -1,0 +1,97 @@
+/* Color references */
+/* NavBar: #1c242c */
+/* Main background: #1c1c2c */
+/* Footer: #242434 */
+/* Additional colors */
+/* #242c34 */
+/* #1c1c24 */
+/* #24242c */
+/* #202c38 */
+/* #201c24 */
+/* #201c24 */
+
+/* Font family for all text */
+body {
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+#navBar {
+  background-color: #1c242c;
+}
+
+/* Center the text in the columns */
+.text-center {
+  text-align: center;
+}
+
+/* Scale down the image */
+.scale-image {
+  max-width: 50%; /* Scale the image down to 50% of its original size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Center the text within its column */
+.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Added Spacing underneath h1 */
+.text-center div h1 {
+  margin-bottom: 20px;
+}
+
+/* Right-align the h3 text and adjust spacing */
+.text-center div h3 {
+  text-align: right;
+  line-height: 1.75;
+}
+
+h1 {
+  color: #fff; /* White text color */
+  font-size: 3vw; /* 3% of the viewport width */
+}
+
+h3 {
+  color: #ccc; /* Light gray text color */
+  font-size: 1.5vw; /* 1.5% of the viewport width */
+}
+
+/* Change the color of the icons */
+.icon {
+  color: #ccc;
+}
+
+/* Display the icons inline */
+.footer .text-center a {
+  display: inline-block;
+  margin: 0 10px; /* Add some space between icons */
+}
+
+/* Style for the fine text */
+.fine-text {
+  color: #ccc;
+  font-size: 12px;
+  margin-top: 10px; /* Add some space between the icons and the text */
+}
+
+/* Set minimum height to 100vh */
+.min-vh-100 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the arrow link */
+.arrow-link {
+  font-size: 36px; /* Adjust the size of the arrow icon */
+  color: #fff; /* Set the color of the arrow icon */
+}
+
+/* Add some margin to the arrow link */
+#arrow-section {
+  margin-top: -150px; /* Adjust the spacing between the middle section and the arrow section */
+}
+
